@@ -397,7 +397,14 @@ body {
     }
 }
 
-a {
+a,
+a:visited {
     text-decoration: none;
     color: #03524c;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #001b19;
+    color: #001b19;
 }
